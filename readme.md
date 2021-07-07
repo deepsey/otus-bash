@@ -41,7 +41,7 @@ then
   echo count=$count2 > /root/count.src
 
 
-#### Обрабатываем файл access1.log и отправляем результыты на почту root 
+#### Обрабатываем файл access1.log и отправляем результаты на почту root 
   {
   echo "Statistic for period from"  
   head -n 1 /root/access1.log | awk '{print $4 " " $5}'  

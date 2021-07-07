@@ -28,7 +28,7 @@ then
 
   if [ $count -gt 670 ]; then echo count=1 > /root/count.src; count=1;fi  
 
-#### Увеличиваем начальное значение счетчика строк
+#### Увеличиваем конечное значение счетчика строк
 
   count2=$(expr $count + 100)
 
